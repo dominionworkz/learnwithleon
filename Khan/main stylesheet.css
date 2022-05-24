@@ -1,0 +1,136 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: #ffffff;
+}
+
+/* additions */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.navcontainer {
+    height: 60px;
+    width: 100%;
+}
+div {
+  font-family: 'Gill Sans',
+  'Gill Sans MT',
+  Calibri,
+  'Trebuchet MS',
+  sans-serif;
+  font-size: 19px;
+  padding: 1.5px;
+  display: flex;
+  flex-flow: row;
+}
+div a {
+  color: #1865f2;
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+}
+div img {
+  width: 170px;
+  margin-right: 360px;
+  margin-left: 360px;
+}
+a {
+  text-decoration: none;
+}
+.imagecontainer {
+    width: 50%;
+    height: 600px;
+    margin-bottom: 250px;
+    padding: 10px;
+    float: left;
+    clear: both;
+}
+.imagecontainer img {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 18%;
+}
+.everystudent {
+  color: #000000;
+  font-family: 'Georgia',
+  Times New Roman,
+  Times,
+  serif;
+  font-size: 200%;
+  width: 50%;
+  height: 600px;
+  margin-bottom: 250px;
+  padding: 10px;
+  float: right;
+}
+.everystudent h1 {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 162%;
+}
+.greenunderline {
+  width: 330px;
+}
+.mission p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 55px;
+    font-size: 70%;
+    line-height: 35px;
+}
+section.buttoncontainer {
+  font-family: 'Gill Sans',
+  'Gill Sans MT',
+  Calibri,
+  'Trebuchet MS',
+  sans-serif;
+  text-decoration: none;
+  height: 60px;
+  width: 100%;
+  padding: 7px;
+}
+.buttoncontainer a {
+  font-size: large;
+  background-color: #1865f2;
+  color: rgb(255, 255, 255);
+  flex-flow: row;
+  display: inline-flex;
+  margin-right: 2px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.footercontainer {
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  clear: both;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

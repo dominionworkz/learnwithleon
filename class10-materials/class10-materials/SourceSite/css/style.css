@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Roboto',
+  sans-serif;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body,
+HTML
+  {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: #DFE5E9;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: #DFE5E9;
+  height: 50px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+nav {
+  height: 50px;
+  width: 100%;
+}
+.navLink {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  list-style-type: none;
+  padding: 0 20px 0 20px;
+  margin: 0;
+}
+h1{
+  font-size: 40px;
+}
+h2 {
+  font-size: 40px;
+}
+ul > h2 {
+  font-size: 20px;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buttonIn {
+  width: 300px;
+  position: relative;
+}
+input {
+ color: #E1E9F0;
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  height: 40px;
+}
+button {
+  position: absolute;
+  border: none;
+  height: 40px;
+  width: 85px;
+  cursor: pointer;
+  color: white;
+  background-color: #304759;
+}
+.button {
+  text-decoration: none;
+  text-align: center;
+  background-color: #304759;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+  margin-left: 15px;
+  height: 32px;
+  width: 6%;
+  float: right;
+}
+.tagline {
+  width: 71px;
+}
+.main {
+  background-color: #DFE5E9;
+  height: 500px;
+  width: 100%;
+}
+.source {
+  height: 500px;
+  width: 50%;
+  padding: 20px;
+  float: left;
+}
+.img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 50%;
+  padding-left: 20px;
+  float: right;
+}
+.features {
+  background-color: #DFE5E9;
+  height: 240px;
+  width: 100%;
+}
+.featureOne,
+ .featureTwo,
+ .featureThree,
+ .featureFour {
+  height: 240px;
+  width: 24.9999%;
+  padding-left: 40px;
+  padding-right: 40px;
+  float: left;
+}
+.collection {
+  background-color: #ffffff;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

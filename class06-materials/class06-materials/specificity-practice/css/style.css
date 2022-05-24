@@ -1,0 +1,13 @@
+/* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere eles in the document. */
+.h3 {
+  color: rgb(12, 54, 196);
+}
+/* Please make "I like turtles." red */
+#h2 {
+  color: rgb(196, 12, 12);
+}
+/* Please select "Hello, world!" with the highest level of specificity possible*/
+html > body > #rugratsWildThornberrysBestCrossOverAllTime > h2.Hello.World {
+    color: rgb(135, 71, 255) !important;
+}
+/* Please select "Let's get down to business..." with the highest level of specificity possible */

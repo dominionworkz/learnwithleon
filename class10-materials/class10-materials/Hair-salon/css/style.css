@@ -1,0 +1,356 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES */
+/*******************************************/
+body {
+  font-family: 'Cormorant Garamond',
+  serif;
+  font-family: 'Cormorant Infant',
+  serif;
+  font-family: 'Gilda Display',
+  serif;
+  font-family:  -apple-system, 
+  BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 
+  'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+h2 {
+  font-family: 'Cormorant Infant';
+  font-weight: 500px;
+  padding-bottom: 2px;
+}
+h3 {
+  font-family: 'Cormorant Infant';
+  font-size: 25px;
+  padding-bottom: 2px;
+}
+
+
+
+/******************************************
+/* LAYOUT */
+/*******************************************/
+header {
+  background-color: #8C7274;
+  width: 100%;
+  height: 70px;
+}
+/* NAV SECTION */
+.navMenu {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+ul {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 0;
+}
+li {
+  list-style: none;
+}
+li a {
+  color: #000000;
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #C4BFC3;
+  cursor: pointer;
+}
+/*********************************************************/
+/* MAIN/HERO SECTION */
+/*********************************************************/
+.heroSection {
+  background-color: #8C7274;
+  width: 100%;
+  height: 600px;
+}
+.blondeFlex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 125px;
+}
+.blondeDivflex {
+  display: flex;
+  flex-direction: column;
+  padding-left: 148px;
+}
+h1 {
+  font-family: 'Cormorant Infant';
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.divideUniqueness {
+  color: #ffffff;
+  font-family: 'Cormorant Infant';
+  letter-spacing: 1px;
+}
+#clickButton {
+  font-family: 'Roboto';
+  width: 165px;
+  height: 60px;
+  color: #ffffff;
+  background-color: #000000;
+}
+.dayRotate {
+  display: flex;
+  align-content: flex-start;
+  font-family: 'Cormorant Infant';
+  letter-spacing: 2px;
+  color: #ffffff;
+  writing-mode: vertical-rl;
+  transform: rotate(360deg);
+}
+/*********************************************************/
+/* YOUR FIRST SECTION */
+/*********************************************************/
+.yourVisit {
+  display: flex;
+  padding-top: 60px;
+}
+.yourFirstflex {
+  padding-left: 148px;
+}
+.firstFlex {
+  font-family: 'Cormorant Infant';
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  width: 250px;
+  height: 260px;
+  padding: 4px;
+}
+#clickVisit {
+  font-family: 'Roboto';
+  color: #000000;
+  background-color: #ffffff;
+  width: 165px;
+  height: 60px;
+}
+.arrowsOnetwo{
+  border: 1px solid #000000;
+  width: 100%;
+}
+.arrowOne
+.arrowTwo {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+/*********************************************************/
+/* BENEFIT SECTION */
+/*********************************************************/
+.benefit {
+  display: flex;
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* width: 100%;
+  height: 300px; */
+}
+.expertBeauticians {
+  text-align: center;
+  height: 200px;
+  padding: 4px 70px 4px 70px;
+}
+.qualityServices {
+  text-align: center;
+  height: 200px;
+  padding: 4px 70px 4px 70px;
+}
+.beautyProducts {
+  text-align: center;
+  height: 200px;
+  padding: 4px 70px 4px 70px;
+}
+/*********************************************************/
+/* MAKE YOUR MOMENTUM */
+/*********************************************************/
+.makeYour {
+  display: flex;
+  background-color: #c4bfc3;
+  padding: 50px;
+  justify-content: center;
+}
+.makeYourmomentum{
+  width: 400px;
+  padding-right: 50px;
+}
+.makepicture {
+  background-color: #a8a8a8;
+  width: 450px;
+  height: 285px;
+  padding-left: 50px;
+}
+/*********************************************************/
+/* BEAUTICIANS GALLERY */
+/*********************************************************/
+.beauticiansGallery {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 650px;
+}
+.colorist {
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  background-color: #a8a8a8;
+  margin-top: 150px;
+  margin-right: 40px;
+}
+.colorist .coloristButton {
+  padding-top: 300px;
+}
+.styler {
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  background-color: #a8a8a8;
+  margin-top: 150px;
+}
+.styler .stylerButton {
+  padding-top: 300px;
+}
+.beautician {
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  background-color: #a8a8a8;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+.beautician .beauticianButton {
+  padding-top: 300px;
+}
+/*********************************************************/
+/* BOOK APPOINTMENT */
+/*********************************************************/
+.bookApt {
+  display: flex;
+  background-color: #c4bfc3;
+  padding: 50px;
+  justify-content: center;
+}
+.bookFirstvisit {
+  width: 350px;
+}
+.bookAptpicture {
+  width: 350px;
+}
+/*********************************************************/
+/* LOOKBOOK */
+/*********************************************************/
+.lookBook {
+  background-color: #ffffff;
+  width: 100%;
+}
+/* .lookBookheader {
+  height: 150px;
+  width: 250px;
+  border: 1px solid #000000;
+} */
+.ourLookbook {
+  font-family: 'Cormorant Infant';
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
+.lookBook h3 {
+  font-family: 'Cormorant Infant';
+  text-align: center;
+  padding: 40px 0;
+}
+.pictureColumn {
+  display: flex;
+  justify-content: center;
+}
+.columnOne {
+  
+}
+.pictureOne {
+  width: 250px;
+  height: 240px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+.pictureTwo {
+  width: 250px;
+  height: 620px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+.columntwo {
+  
+}
+.pictureThree {
+  width: 250px;
+  height: 620px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+.pictureFour {
+  width: 250px;
+  height: 240px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+.columnthree {
+  
+}
+.pictureFive {
+  width: 250px;
+  height: 240px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+.pictureSix {
+  width: 250px;
+  height: 620px;
+  margin: 20px;
+  background-color: #a8a8a8;
+}
+
+/*********************************************************/
+/* FOOTER */
+/*********************************************************/
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 250px;
+  padding-top: 100px;
+}
+footer p {
+  text-align: center;
+  color: #a8a8a8;
+  padding-top: 25px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

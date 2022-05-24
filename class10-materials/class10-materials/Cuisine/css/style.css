@@ -1,0 +1,239 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  margin: 0;
+}
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+h4 {
+  color: #F7890D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+#enter {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px 0 0 5px;
+  margin: 0 0 0 150px;
+}
+#clickButton {
+  height: 50px;
+  width: 140px;
+  border-radius: 0 5px 5px 0;
+}
+.social {
+  height: 50px;
+  width: 350px;
+  margin: 20px 0 0 150px;
+  flex-direction: row;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: #F0F5F6;
+  padding: 15px;
+}
+nav {
+  background-color: #F0F5F6;
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Roboto',
+  sans-serif;
+  padding-right: 2rem;
+}
+.welcome {
+  background-color: #F0F5F6;
+  width: 100%;
+  height: 400px;
+}
+.welcome h1 {
+  font-size: 80px;
+  line-height: 70px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+  margin: 0;
+}
+span {
+  font-family: 'Roboto',
+  sans-serif;
+  font-weight: 600;
+}
+.discover {
+  width: 100%;
+  height: 500px;
+}
+.discoverAbout {
+  width: 30%;
+  height: 400px;
+  margin-left: 35%;
+}
+#discoverButton {
+  background-color: #F7890D;
+  height: 50px;
+  width: 145px;
+  border-radius: 5px 5px 5px 5px;
+}
+#clickButton {
+  background-color: #F7890D;
+}
+.ourSpecility {
+  background-color: #F0F5F6;
+}
+.specility {
+  width: 100%;
+  height: 200px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 2px ;
+}
+.specility a {
+   font-family: 'Roboto',
+   sans-serif;
+   width: 100%;
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   border-bottom: 2px solid #F7890D;
+}
+
+.ourSpecility .specilityCuisine {
+  text-decoration: none;
+  font-family: 'Roboto',
+  sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 470px 0 470px;
+}
+.imageCarousel {
+  background-color: #F0F5F6;
+  width: 100%;
+  /* border: 1px solid goldenrod; */
+  padding: 10px;
+  flex-flow: row wrap ;
+  margin-top: 80px;
+}
+.imageCarousel img {
+  width: 24.3333%;
+  height: 300px;
+  margin: 3px;
+  background-color: rgb(216, 216, 216);
+}
+.imageCarousel .carouselCircle {
+  text-align: center;
+  margin-left: 46%;
+  margin-right: 46%;
+}
+.opening {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  /* border: 1px solid goldenrod; */
+}
+.opening .callNow {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.phoneNumber {
+  color: #F7890D;
+  font-family: 'Times New Roman',
+  Times,
+  serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.days {
+  width: 100%;
+  height: 70px;
+  
+}
+.mondayTuesday {
+  width: 50%;
+  height: 60px;
+  float: left;
+}
+.mondayTuesday p {
+  font-family: 'Times New Roman',
+  Times,
+  serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 70px;
+}
+.fridaySunday {
+  width: 50%;
+  height: 60px;
+  float: right;
+}
+.fridaySunday p {
+  font-family: 'Times New Roman',
+  Times,
+  serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 70px;
+}
+.customer {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+.customer p {
+  width: 274px;
+  height: auto;
+  margin: 0 auto;
+}
+.profilepic {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.stars {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+.ad {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* footer {
+  border: 1px solid olive;
+  width: 100%;
+  height: 400px;
+} */
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

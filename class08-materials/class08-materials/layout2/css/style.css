@@ -1,0 +1,133 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+	clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  font-family: Neue,
+  Helvetica,
+  Arial,
+  sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+  height: 80px;
+  width: 250px;
+}
+nav img {
+  width: 150px;
+  height: 80px;
+}
+.h3 {
+  margin: 24px 0;
+}
+.ulmainSection {
+    border: 1px solid coral;
+    width: 15%;
+    height: 500px;
+    float: left;
+    clear: both;  
+}
+ul {
+  padding: 10px 15px;
+}
+li {
+  text-align: left;
+  line-height: 43px;
+  list-style: none;
+  font-size: x-large;
+  color: #878787;
+  float: left;
+  clear: both;
+}
+.mainSection {
+  border: 1px solid coral;
+  width: 55%;
+  height: 500px;
+  padding: 8px;
+  float: left;
+}
+.asideSection {
+  border: 1px solid coral;
+  width: 30%;
+  height: 500px;
+  padding: 8px;
+  float: right;
+}
+.latest {
+  border: 1px solid coral;
+  width: 33.3333%;
+  height: 320px;
+  padding: 8px;
+  float: left;
+}
+.quantum {
+  border: 1px solid coral;
+  width: 33.3333%;
+  height: 320px;
+  padding: 8px;
+  float: left;
+}
+.exDispo {
+  border: 1px solid coral;
+  width: 33.3333%;
+  height: 320px;
+  padding: 8px;
+  float: right;
+}
+/* font-family: Neue, Helvetica, Arial,
+sans-serif;
+; */
+/******************************************
+/* Media Query
+/*******************************************/
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .latest,
+  .quantum,
+  .exDispo {
+    border: 1px solid coral;
+    width: 33.3333%;
+    height: 480px;
+    padding: 8px;
+    float: left;
+  }
+  hr {
+    box-sizing: content-box;
+  }
+  ul {
+    padding: 10px 10px;
+  }
+  li {
+    font-size: large;
+
+  }
+  .asideSection h3 {
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+  .asideSection h5 {
+    margin-top: 15px;
+    margin-bottom: 12px;
+  }
+  .latestnews {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}

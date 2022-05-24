@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  background: rgb(95, 96, 97);
+  border: .5px solid rgb(255, 255, 255);
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+section > section {
+  background: rgb(245, 225, 172);
+  border: .5px solid rgb(97, 69, 69);
+  height: 500px;
+  width: 15%;
+  float: left;
+}
+article {
+  background: rgb(134, 156, 185);
+  border: .5px solid rgb(255, 255, 255);
+  height: 500px;
+  width: 20.0%;
+  float: left;
+}
+.article {
+  width: 40.0%;
+}

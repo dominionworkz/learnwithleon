@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  background: rgb(95, 96, 97);
+  border: .5px solid rgb(255, 255, 255);
+  height: 85px;
+  width: 100%;
+  clear: both;
+}
+section > section{
+  background: rgb(134, 156, 185);
+  border: .5px solid rgb(255, 255, 255);
+  height: 130px;
+  width: 100%;
+  float: left;
+}
+section > article {
+  background: rgb(134, 156, 185);
+  border: .5px solid rgb(255, 255, 255);
+  height: 170px;
+  width: 35%;
+  float: left;
+}
+article {
+  background: rgb(134, 156, 185);
+  border: .5px solid rgb(255, 255, 255);
+  height: 180%;
+  float: right;
+}
+.article {
+  width: 65%;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  background: rgb(69, 79, 100);
+  border: .5px solid rgb(54, 39, 39);
+  height: 70px;
+  width: 100%;
+  clear: both;
+}
+section {
+  background: rgb(214, 136, 245);
+  border: .5px solid rgb(54, 39, 39);
+  height: 300px;
+  width: 33.3333%;
+  float: left;
+}
+.bigbottom {
+  width:50%
+}

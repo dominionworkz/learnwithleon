@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(120, 206, 233);
+    color: white;
+
+}
+
+div {
+    margin: 20px auto;
+    border: 3px solid rgb(0, 203, 74);
+    min-width: 600px;
+    max-width: 40vw;
+}
+
+
+img {
+    float: right;
+    max-height: 200px;
+    max-width: 150px;
+    margin-right: 20px;
+    margin: 0 25px 10px 10px
+}
+
+h1,
+nav {
+    text-align: center;
+    margin: 25px 0;
+}
+
+a {
+    color: rgb(0,203,127);
+    border-left: 1px solid grey;
+    padding-left: 5px;
+    display: inline-block;
+    line-height: 10px;
+}
+
+footer a:first-child,
+header a:first-child{
+    border-left: 0;
+}
+
+header
+p {
+    font-size: 20px;
+}
+
+p,
+h2 {
+    margin: 10px 30px;
+}
+
+h2,
+nav,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+header a:first-child {
+    color: white;
+    text-decoration: none;
+}

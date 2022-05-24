@@ -1,0 +1,310 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+.clear {
+	clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+background-color: rgb(255, 255, 255);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header,section,div,footer {
+    font-family:Oswald, Geneva, Tahoma, sans-serif;
+}
+header {
+  height: 50px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 7px;
+  float: left;
+}
+.header a {
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 10px;
+}
+.header .button {
+  letter-spacing: 0.01em;
+  margin-left: 79%;
+  padding: 2px 12px;
+  border-radius: 5px;
+  color: rgb(39, 39, 39);
+  background-color: rgb(255, 255, 255);
+}
+li {
+  float: left;
+  display: block;
+  flex: 0 1 auto;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 360px;
+  margin-right: 360px;
+}
+span {
+  color: white;
+  letter-spacing: 0.2em;
+}
+h1 {
+  font-size: 55px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 170px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+h2 h3 .sectionTwo > p {
+ color: rgb(22, 31, 42);
+}
+/* Section One */
+.sectionOne {
+  background-color: rgb(102, 118, 138);
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  padding: 20px 50px 20px;
+  color: white;
+  font-family:Oswald,
+  Geneva,
+  Tahoma,
+  sans-serif;
+}
+.sectionOne p {
+  color: white;
+  font-family:Oswald,
+  Geneva,
+  Tahoma,
+  sans-serif;
+}
+/* Section Two */
+.sectionTwo p {
+  margin-left: 550px;
+  margin-right: 550px;
+}
+.sectionTwo {
+  background-color: white;
+  text-align: center;
+  padding-top: 74px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 400px;
+}
+/* Section Three */
+.sectionThree {
+  background-color: rgb(219, 223, 226);
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  padding: 100px 50px 600px 50px;
+}
+.sectionThree div {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgb(102, 118, 138);
+}
+.sectionThree p {
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.sectionThree a {
+    border: 1px solid rgb(39, 39, 39);
+    color: rgb(22, 31, 42);
+    padding: 15px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.sectionThree section {
+    float: left;
+    width: 50%;
+}
+/* Section Four */
+.sectionFour {
+  text-align: center;
+  width: 100%;
+  height: 390px;
+  padding: 40px 50px 40px;
+}
+.sectionFour a {
+  border: 1px solid rgb(39, 39, 39);
+  color: rgb(22, 31, 42);
+  padding: 15px 50px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  background-color: rgb(22, 31, 42);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+ }
+ .social {
+   margin-right: 3px;
+   width: 100%;
+   height: 50px;
+   font-size: 2.5em;
+ }
+.fa-facebook-square {
+  color: rgb(255, 255, 255);
+  float: left;
+  clear: both;
+  margin-right: 30px;
+}
+.fa-twitter {
+  color: rgb(255, 255, 255);
+  margin-right: 30px;
+}
+.fa-envelope {
+  color: rgb(255, 255, 255);
+   margin-right: 30px;
+}
+.footernav {
+  letter-spacing: 1.5rem;
+   margin-right: 3px;
+   width: 500px;
+   height: 300px;
+}
+.sitemap {
+  color: rgb(170, 170, 170);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 3px;
+  width: 500px;
+  height: 20px;
+}
+.one {
+  width: 50%;
+  height: 250px;
+  float: left;
+  clear: both;
+}
+.two {
+  width: 50%;
+  height: 250px;
+  float: right;
+}
+.class,
+.hire,
+.give,
+.volunteer {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-right: 15px;
+}
+.strong {
+  margin-bottom: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+.giveofself {
+  color: rgb(170, 170, 170);
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-right: 3px;
+   width: 500px;
+   height: 20px;
+} 
+.contact {
+  color: rgb(255, 255, 255);
+   width: 100%;
+  height: 200px;
+}
+.contact p {
+    line-height: 1.5em;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+div > p {
+  margin-left: 226px;
+  margin-bottom: 50px;
+  text-align: left;
+  line-height: 1rem;
+}
+#hr {
+  margin-top: 274px;
+}
+.p .taxinfo {
+  margin-top: 50px;
+  padding: 0;
+}
+/******************************************
+/* Media Queries
+/*******************************************/
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div>p {
+    margin-left: 226px;
+    text-align: left;
+    line-height: 1.5rem;
+  }
+  .header .button {
+    letter-spacing: 0.01em;
+    margin-left: 89%;
+    padding: 2px 12px;
+    border-radius: 5px;
+    color: rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
+  }
+  .sectionOne p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sectionTwo p {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .sectionThree p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .sectionFour p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sectionFour {
+    text-align: center;
+    width: 100%;
+    height: 390px;
+    padding: 50px 50px 40px;
+  }
+  .sectionThree div {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(102, 118, 138);
+  }
+  footer {
+    background-color: rgb(22, 31, 42);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="main stylesheet.css">
+    <title>BBC</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Courses</li>
+          <input type="text" placeholder="Search">
+          <img src="C:\Users\Dominionworkz\OneDrive\Desktop\HTMLCSSTraining\LearnwithLeon\Khan\Images\Khan_Academy-Logo.wine.svg" alt="Khan Logo">
+          <li>Donate</li>
+          <li>Login</li>
+          <li>Sign up</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <img src="Khan\Images\pexels-ron-lach-10638067.jpg" alt="Student">
+      <h1>For every student,
+          every classroom.
+          Real results.
+      </h1>
+      <p>
+        We're a non-profit with the mission to provide a free, world-class education for anyone, anywhere.
+      </p>
+      <ul>
+        <li><h3>Learners</h3></li>
+        <li><h3>Teachers</h3></li>
+        <li><h3>Districts</h3></li>
+        <li><h3>Parents</h3></li>
+      </ul>
+    </section>
+
+      <h2>Why Khan Acadamey works</h2>
+
+  </body>
+</html>
