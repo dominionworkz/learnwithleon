@@ -64,3 +64,19 @@ function evenOrOdd(num) {
 function even_or_odd(number) {
   return number % 2 ? "Odd" : "Even"
 }
+
+/* This is a Codewar challenge for Grade book Challenge for three scores  passed to return a letter value for the grade*/
+function getGrade (s1, s2, s3) {
+  let score = ( s1 + s2 + s3) / 3;
+  if (score >= 90 && score <= 100) {
+    return 'A';
+  } else if (score >= 80){
+    return 'B';
+  } else if (score >= 70){
+    return 'C';
+  } else if (score >= 60){
+    return 'D';
+  } else {
+    return 'F';  
+  }
+}
