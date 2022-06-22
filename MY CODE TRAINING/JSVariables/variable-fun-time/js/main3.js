@@ -35,7 +35,7 @@ const h1 = document.querySelector('h1')
 
 h1.addEventListener('click', addTwo)
 
-function addTwo(){00000
+function addTwo(){
     let input = num(document.querySelector('#danceDanceRevolution').value)
     numInput += 25
 
