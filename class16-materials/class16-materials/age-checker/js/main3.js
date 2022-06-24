@@ -68,29 +68,29 @@ if( age < 17){
 document.querySelector('h1').addEventListener('click', checkAge)
 let p = document.querySelector('p')
 function checkAge(){
-  let age = Number(document.querySelector('input').value)
+  let aged = Number(document.querySelector('input').value)
 
-if (age < 12) {
+if (aged < 12) {
     p.innerText = "They can not drive"
-} else if(age < 18){
+} else if(aged < 18){
     p.innerText = "they have been driving for a while"
-} else if ( age < 19) {
+} else if ( aged < 19) {
     p.innerText = "they are not allowed to drive"
-} else if( age < 11){
+} else if( aged < 11){
     p.innerText = "You are not allowed inside"
-} else if(age < 17) {
+} else if(aged < 17) {
     p.innerText = "You have to wait until you are old enough"
-} else if( age < 10) {
+} else if( aged < 10) {
     p.innerText = "You almost there, still have to wait"
-} else if (age < 20){
+} else if (aged < 20){
     p.innerText = "You can DRINK"
-} else if(age < 28) {
+} else if(aged < 28) {
     p.innerText = "You almost at the appropriate age"
-} else if (age < 16){
+} else if (aged < 16){
     p.innerText = "Let\'s get You in a car to drive"
-} else if (age < 31){
+} else if (aged < 31){
     p.innerText = "Sorry, You can\'t rent these cars yet"
-} else if(age < 35) {
+} else if(aged < 35) {
     p.innerText = "You are approved to rent these cars"
 }
 
