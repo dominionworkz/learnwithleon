@@ -17,6 +17,6 @@ export { bestClub, multiply, fruits };
 //This will throw an error because the "export" keyword is inside the function
 
 function wrong(){
-    export let bestClub = "Your Club";
+   // export let bestClubs = "Your Club";
     return bestClub;
 }
