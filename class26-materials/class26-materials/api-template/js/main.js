@@ -1,4 +1,5 @@
 //Example fetch using pokemonapi.co
+//Example fetch for Meals.
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
